@@ -1,0 +1,88 @@
+/* === RESET ===*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+/* VARIABLES */
+
+:root {
+  color: rgb(114, 96, 133);
+  /* HSL color mode */
+  --base-color: rgb(0, 0, 0);
+  --base-color-secund: rgb(38, 13, 46);
+  --base-color-alt: rgb(0, 0, 0);
+  --title-color: rgb(36, 21, 51);
+  --tex-color: rgb(0, 0, 0);
+  --text-color-light: rgb(33, 30, 36);
+  --body-color: rgb(214, 212, 216);
+}
+
+/*== BASE ===*/
+
+body {
+  font: 400 1rem 'DM sans', sans-serif;
+  background-color: var(--body-color);
+  color: var(--tex-color);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font: 700 1.875rem 'Poppins', sans-serif;
+  color: var(--title-color);
+  -webkit-front-smoothing: auto;
+}
+
+.button {
+  color: var(--base-color-secund);
+  border-bottom: 1px 
+  margin-bottom: 2rem;
+}
+
+/*==== LAYOUT ===*/
+
+#header {
+  border-bottom: 1px solid #e4e4e4;
+  margin-bottom: 2rem;
+}
+
+nav {
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font: 700 1.875rem 'Poppins', sans-serif;
+  color: var(--title-color);
+}
+
+.logo span {
+  color: var(--base-color);
+}
+
+.container {
+  width: 100%;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.section {
+  padding: 5rem 0;
+}
+
+/*=== HOME ===*/
+#home .container {
+  margin: 0;
+}
